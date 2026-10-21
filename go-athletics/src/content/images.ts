@@ -4,8 +4,9 @@
  * PLACEHOLDERS: no original GO Athletics photography was supplied with the
  * project, so these are licensed Unsplash photos (unsplash.com/license) chosen
  * to match the reference design. The hero background is cut from the approved
- * design mockup itself (743px wide there, upscaled 2x, baked-in text removed) —
- * replace hero-gym.webp with the original high-resolution file when available.
+ * design mockup itself (743px wide there, baked-in text removed, AI-upscaled 4x
+ * with Real-ESRGAN) — replace hero-gym.webp with the original high-resolution
+ * file when available.
  * Replace the files in /public/images with official photography using the
  * same file names, or update the paths here.
  */

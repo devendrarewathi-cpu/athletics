@@ -22,8 +22,8 @@ export function HeroSection() {
           className="hero__image"
           src={IMAGES.hero.src}
           alt={IMAGES.hero.alt}
-          width={1486}
-          height={488}
+          width={2972}
+          height={976}
           priority
         />
       </motion.div>
