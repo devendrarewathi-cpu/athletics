@@ -3,8 +3,11 @@
  *
  * PLACEHOLDERS: no original GO Athletics photography was supplied with the
  * project, so these are licensed Unsplash photos (unsplash.com/license) chosen
- * to match the reference design. Replace the files in /public/images with
- * official photography using the same file names, or update the paths here.
+ * to match the reference design. The hero background is cut from the approved
+ * design mockup itself (743px wide there, upscaled 2x, baked-in text removed) —
+ * replace hero-gym.webp with the original high-resolution file when available.
+ * Replace the files in /public/images with official photography using the
+ * same file names, or update the paths here.
  */
 export interface SiteImage {
   src: string;
@@ -14,7 +17,7 @@ export interface SiteImage {
 const img = (file: string, alt: string): SiteImage => ({ src: `/images/${file}.webp`, alt });
 
 export const IMAGES = {
-  hero: img('hero-sprint-start', 'Athlete in a sprint start position on a running track'),
+  hero: img('hero-gym', 'GO Athletics athlete in a sprint start position in the training gym'),
   method: img('method-coaching', 'Coach guiding an athlete through a push-up drill'),
   successRopes: img('success-battle-ropes', 'Athlete training with battle ropes'),
   performanceBanner: img('banner-performance', 'Athlete preparing to lift a barbell'),

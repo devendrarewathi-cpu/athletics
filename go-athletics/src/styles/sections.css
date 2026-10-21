@@ -22,9 +22,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 30% 60%;
-  /* Mirror so the athlete sits on the right, as in the design reference. */
-  transform: scaleX(-1);
+  /* The photo already has the athlete on the right; keep that side in view. */
+  object-position: right bottom;
 }
 
 .hero__overlay {
@@ -89,7 +88,7 @@
   }
 
   .hero__image {
-    object-position: 20% 60%;
+    object-position: 72% bottom;
   }
 
   .hero__overlay {
